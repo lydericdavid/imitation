@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Créer mon profil méteoJob</title>
+    
+</head>
+<body>
+    
+    <main>
+
+       <div>
+           <img src="assets/img/logo-white.png" alt="logo" class="titre">
+            <legend class="titre">Créer votre profil MeteoJob</legend>
+        </div>
+
+        <div class="contenu">
+            <form action="index.html" method="POST">
+
+                    
+                
+                    <label for="nom">Nom</label><br>  
+                    <input type="text" name="nom" id="nom" autofocus required placeholder="Votre nom" class="name">
+
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" class="monprenom"><br><br>        
+
+                    <label for="mail">Adresse e-mail</label><br>
+                    <input type="text" name="mail" id="mail" placeholder="votre Adresse e-mail"><br><br>
+
+                    <label for="mpw">Mot de passe</label><br>
+                    <input type="text" name="ville" id="ville" placeholder="choisissez Votre mot de passe"> <br><br>
+
+                    <label for="poste">postes recherchés</label><br>
+                    <input type="poste" name="poste" id="poste" placeholder="Ex:Chef de projet, Cuisinier..."> <br><br>
+
+                    <label for="lieu">ou souhaitez-vous travaillez?</label><br>
+                    <input type="lieu" name="lieu" id="lieu" placeholder="Ex: Essone, Nantes, Bretagne..."> <br>
+
+                    <p>
+                        Types de contrats recherchés
+                    </p>
+                            <div class="container">
+                                <div class="cdi">CDI</div>
+                                <div>CDD</div>
+                                <div>indépendant /
+                                    Franchisé</div>
+                                <div>Intérim</div>
+                                <div>Stage</div>
+                                <div>Alternance/ Apprentisssage</div>
+                                <div>+ de types de contrat</div>
+                            </div>
+
+                            <div>
+                                <p>
+                                    j'accepte les <a href="#">conditions générales</a> pour créer mon compte,<br>
+                                    bénéficier des services de matching et aux offres :
+                                </p>
+
+                                <input type="submit" value="continuer" class="bouton">
+
+                            </div>
+                            
+
+
+
+               
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
