@@ -1,15 +1,17 @@
 body {
   background-image: url("https://media.meteojob.com/theme/2.3/images/bg-clouds.png"),linear-gradient(#80c1ee,#1981c8, #82c2ef);
+  background-repeat: repeat;
   margin:25%;
   width:900px;
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1.4em;
+  font-family: 'Josefin Sans', sans-serif;
   margin-top: -0px;
-  height: 100vh;
   
   
 }
-
+.meteo {
+  
+}
 /*les grid*/
 .container {
     display: grid;
@@ -17,7 +19,14 @@ body {
     grid-column-gap: 10px;
     grid-row-gap: 1em;
     margin-left: 20px;
+    
   }
+  .container :nth-child(1) {
+    background-color:#3598db;
+    
+    
+  }
+  
  
   .contenu {
     background-color: white;
@@ -27,14 +36,18 @@ body {
   }
   .container > div {
    
-    background-color:rgb(187, 179, 179);
+    background-color:rgb(250, 240, 240);
     padding: 1em;
     color:black; 
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6;
+   
   }
 
   input{
     height: 5vh;
-    width: 93%;
+    width: 94%;
     margin: 8px;
     border: 1px solid gray;
     margin-left: 20px;
@@ -57,18 +70,20 @@ body {
 
   .bouton {
     width: 20%;
-    height: 6ex;
+    height: 8ex;
     border: 1px solid #000;
     background-color:#3598db;
     color: #ffff;
+    margin-bottom: 10%;
+    margin-top: 5%;
     
   }
   .name {
-    width: 40%;
+    width: 44%;
   }
 
   .monprenom {
-    width: 40%;
+    width: 46%;
   }
   
   legend {
@@ -94,6 +109,82 @@ body {
     margin-bottom:100px;
   }
 
-  .texte {
-    
+  .text {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;   
+    display: block;
+    top: 200px;
+    position: absolute;
+    margin-right: 40px;
+    margin-left: -290px;
+       
   }
+
+
+
+  .icon {
+    padding-top: 100px;
+  }
+
+
+  ::placeholder {
+    padding-left: 10px;
+    font-size: 1.2em;
+  }
+.passeword input {
+  display: flex;
+  border: none;
+  border: 1px solid black;
+
+}
+.fa{
+  position: absolute;
+  top:68%;
+  padding-right:14px;
+  font-size: 24px;
+  left: 71%;
+  box-sizing: border-box;
+  }
+#pre {
+  position: absolute;
+  top: 36%;
+}
+
+.switch{
+  position: absolute;
+  width: 60px;
+  height:40px ;
+  display: inline-block;
+  padding-left: 25px;
+  margin-left: 10%;
+    
+}
+
+.switch .slider{
+  border-radius: 6%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(187, 179, 179);
+}
+
+.switch input{ display: none;}
+
+.switch .slider::before{
+border-radius: 6%;
+content: "on";
+position: absolute;
+height: 30px;
+width: 28px;
+background-color: white;
+left: 4px;
+top: 3px;
+}
+
+
+
+
+
