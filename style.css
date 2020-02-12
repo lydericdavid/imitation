@@ -32,6 +32,7 @@ body {
     background-color: white;
     margin-top: -50vh;
    
+   
     
   }
   .container > div {
@@ -136,11 +137,27 @@ body {
 .passeword input {
   display: flex;
   border: none;
-  border: 1px solid black;
+  margin: 10px;
+  width:95% ;
+  height: 3vh;
 
 }
+.passeword {
+  display: flex;
+  border: 1px solid gray;
+  
+  width: 94%;
+  margin:20px;
+   
+}
+.passeword i {
+ 
+  align-self: flex-end;
+   
+}
+
 .fa{
-  position: absolute;
+  
   top:68%;
   padding-right:14px;
   font-size: 24px;
