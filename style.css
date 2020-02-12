@@ -146,6 +146,7 @@ body {
   font-size: 24px;
   left: 71%;
   box-sizing: border-box;
+  height: 5vh;
   }
 #pre {
   position: absolute;
